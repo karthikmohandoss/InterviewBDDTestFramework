@@ -1,0 +1,8 @@
+## Ignore not needed file any where in the project file structure while commit
+
+/target
+/target-output
+
+*.html
+*.json
+*.jar
