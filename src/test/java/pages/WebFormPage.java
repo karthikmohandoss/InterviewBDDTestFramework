@@ -100,7 +100,6 @@ public class WebFormPage extends BaseClass {
             action.sendKeys(Keys.ARROW_LEFT);
 
         action.perform();
-        Thread.sleep(5000);
     }
 
     public void assertStateOfDisabledField() {
