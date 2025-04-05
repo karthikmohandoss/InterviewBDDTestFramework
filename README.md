@@ -16,14 +16,14 @@ This framework contains sample code containing:
 1. Clone the repository using "git clone"
 
 2. Go to project directory from terminal and run following command
-   "mvn clean test -DsuiteXmlFile=TestNG.xml" ( default will run in chrome browser )
+   mvn clean test -DsuiteXmlFile="TestNG.xml" ( default will run in chrome browser )
 
 To run tests in different browsers pass parameter values as below:
   Edge browser    -> -DbrowserName=edge
   Firefox browser -> -DbrowserName=firefox
 
 To run tests in headless mode pass parameter value as below:
-  "mvn clean test -DsuiteXmlFile=TestNG.xml -DbrowserName=edge -DheadlessMode=true"
+  mvn clean test -DsuiteXmlFile="TestNG.xml" -DbrowserName=edge -DheadlessMode=true
 ```
 
 ```bash
