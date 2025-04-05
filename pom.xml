@@ -49,8 +49,8 @@
                 <version>3.5.2</version>
                 <configuration>
                     <systemPropertyVariables>
-                        <browserName>${browserName}</browserName>
-                        <headlessMode>${headlessMode}</headlessMode>
+                        <browserName>chrome</browserName>
+                        <headlessMode>false</headlessMode>
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
